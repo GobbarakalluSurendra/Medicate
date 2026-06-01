@@ -1,7 +1,7 @@
 class AppConfig {
   // Use http://10.0.2.2:5000/api for Android Emulator loopback,
   // or http://localhost:5000/api for Web/Desktop/iOS emulator.
-  static const String apiBaseUrl = 'https://humorous-moonbeam-footboard.ngrok-free.dev/api';
+  static const String apiBaseUrl = 'https://mediconnect-6p2d.onrender.com/api';
   
   // Storage keys
   static const String tokenKey = 'jwt_auth_token';

@@ -19,7 +19,9 @@ env/
 .flutter-plugins
 .flutter-plugins-dependencies
 .packages
-build/
+# Ignore intermediate build files but allow the final web build folder
+/frontend/build/
+!/frontend/build/web/
 *.ipr
 *.iws
 *.iml
